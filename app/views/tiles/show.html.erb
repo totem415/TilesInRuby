@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>X index:</strong>
+  <%= @tile.x_index %>
+</p>
+
+<p>
+  <strong>Z index:</strong>
+  <%= @tile.z_index %>
+</p>
+
+<p>
+  <strong>Category:</strong>
+  <%= @tile.category %>
+</p>
+
+<%= link_to 'Edit', edit_tile_path(@tile) %> |
+<%= link_to 'Back', tiles_path %>

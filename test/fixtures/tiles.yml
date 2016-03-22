@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  x_index: 1
+  z_index: 1
+  category: MyString
+
+two:
+  x_index: 1
+  z_index: 1
+  category: MyString
