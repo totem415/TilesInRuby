@@ -29,7 +29,7 @@ development:
   encoding: utf8
   database: ruby_tiles_development
   pool: 5
-  username: 
+  username: user
   password:
 
 test: &TEST
@@ -37,7 +37,7 @@ test: &TEST
   encoding: utf8
   database: uby_tiles_test
   pool: 5
-  username: 
+  username: user
   password:
 
 production:
@@ -45,7 +45,7 @@ production:
   encoding: utf8
   database: uby_tiles_production
   pool: 5
-  username: 
+  username: user
   password:
 
 cucumber:
